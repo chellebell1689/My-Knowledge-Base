@@ -14,3 +14,5 @@ __If you need to see what devices (if any) have a particular application install
 6. Then click "Submit"
 7. It'll take a moment, based on what filters you have, but you should end up with another screen showing all the applications.
    **NOTE: This will only look for applications with a .exe file.  It might show an application/tool that is not installed, but the .exe file was not removed**
+
+  ![The results screen](../../assets/screenshots/results.png)
