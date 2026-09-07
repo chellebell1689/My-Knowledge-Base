@@ -9,7 +9,7 @@ I am a **System Engineer I** with a strong hands-on background in Tier 1–2 sys
 
 * 📜 **Certifications:** CompTIA A+ | *Network+ (In Progress)*
 * 🎯 **Target Roles:** Network Engineer / System Engineering
-* 🔧 **Current Focus:** PowerShell automation, network switch/firewall management, and advanced Active Directory / Entra ID administration.
+* 🔧 **Current Focus:** Active Directory & GPO administration, network switch/firewall management, and script development
 
 ---
 
