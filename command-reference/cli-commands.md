@@ -16,7 +16,7 @@ _(i.e. net stop spooler && del %systemroot%\System32\spool\printers\* /Q && net 
 
 #Scan Related#
 
-This is a full scan of all components on the device.  Do these in order and restart after submitting the check disk command
+This is a full scan of all components and drives on the device.  Do these in order and restart after submitting the check disk command
 ```
 Dism.exe /online /Cleanup-Image /checkhealth 
 Dism.exe /online /Cleanup-Image /scanhealth 
@@ -25,6 +25,21 @@ Dism.exe /online /Cleanup-Image /Restorehealth
 Dism.exe /Online /Cleanup-Image /AnalyzeComponentStore 
 Dism.exe /Online /Cleanup-Image /StartComponentCleanup
 chkdsk /f /r /x
+```
+Network-related commands
+```
+ipconfig /all
+ipconfig /release && ipconfig /renew
+ipconfig /flushdns && ipconfig /registerdns
+nslookup [specific domain] [optional: specific dns server]
+tracert [ip address]
+route print
+
+```
+
+Grab public IP address for a domain
+```
+curl ipecho.net/plain
 ```
 
 #Net (or general) Commands
@@ -49,3 +64,5 @@ Pull account information for a local account
 net user [username]
 ```
 _Use /domain to switch to a domain account_
+
+
