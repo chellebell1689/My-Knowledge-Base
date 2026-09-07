@@ -71,24 +71,23 @@ I am a **System Engineer I** with a strong hands-on background in Tier 1–2 sys
 ## 🔬 Technical Projects & Hands-On Labs
 
 ### 🌐 [CompTIA Network+ Infrastructure Lab](https://github.com/yourusername/network-plus-lab)
-* **Overview:** Designed and configured a multi-subnet corporate network topology to simulate realistic enterprise traffic, routing, and security policies.
-* **Key Implementations:**
-  * Configured VLANs, inter-VLAN routing, and DHCP pools across Cisco hardware/Packet Tracer switches.
-  * Implemented SSH access controls, port security, and static/dynamic routing protocols.
-  * Managed DNS mapping, IP address schemas, and firewall rule enforcement for isolated network segments.
+* **Overview:** Designed and configured a multi-subnet corporate network topology simulating enterprise traffic, routing, and security.
 * **Tech & Tools:** Cisco Packet Tracer, SSH, Subnetting (IPv4), VLAN Tagging, Firewall Policies.
 
 ---
 
-### 📜 [Automated PowerShell Application Lifecycle Management](https://github.com/yourusername/powershell-app-management)
+### 📜 [PowerShell Application Lifecycle Management](https://github.com/yourusername/powershell-app-management)
 * **Overview:** Built an automated script to handle endpoint application deployment, audit cleanup, and silent software updates across managed client devices.
-* **Key Implementations:**
-  * Wrote detection logic inspecting local registries and file paths to verify installed application versions.
-  * Executed silent uninstalls and re-installations without requiring user interaction.
-  * Integrated script execution with RMM deployment tools (Kaseya VSA) for fleet-wide execution.
 * **Tech & Tools:** PowerShell, Windows Registry, Kaseya VSA, Batch Scripting.
 
 ---
+
+### 💻 [C# / Python Tool Name Here](https://github.com/yourusername/repo-name)
+* **Overview:** Brief 1-sentence description of what the program or utility does.
+* **Tech & Tools:** C# / Python, Git, VS Code.
+
+---
+
 ## 💼 Work History
 
 * **VC3** | System Engineer I *(Nov 2024 – Present)*
