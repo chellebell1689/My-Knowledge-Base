@@ -1,6 +1,7 @@
 # Michelle's Knowledge Base
 [Connect with me on LinkedIn!](https://www.linkedin.com/in/michelle-perkins-688515131/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3BdBIRujNWR1W7Em7iM3uoBw%3D%3D)
-[I'd be honored if you reviewed my resume]
+
+[I'd be honored if you reviewed my resume](./assets/resume-2026.pdf)
 
 
 I am currently enrolled in the VA's VetTech 2.0 program to get more training in various concepts in the IT industry and potentially take the corresponding exam for that certification.  My career goal is to focus more on networking or programming.  I have my A+ certification and will be taking the Net+ exam soon.
