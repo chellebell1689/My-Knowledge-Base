@@ -1,4 +1,4 @@
-#Printer Related#
+# Printer Related
 
 Stop/start the printer spooler 
 ```
@@ -18,7 +18,7 @@ _(i.e. net stop spooler && del %systemroot%\System32\spool\printers\* /Q && net 
 
 ============================================================================================
 
-#Scan Related#
+# Scan Related
 
 This is a full scan of all components and drives on the device.  Do these in order and restart after submitting the check disk command
 ```
@@ -52,7 +52,7 @@ netsh advfirewall set allprofiles stat off
 
 ============================================================================================
 
-#Time related Commands
+# Time related Commands
 
 Find where the device is syncing time & force time sync
 ```
@@ -75,7 +75,7 @@ _Just using time will show the current time, but hit the enter key twice_
 
 ============================================================================================
 
-#Power management commands (sleep/hibernate/etc)
+# Power management commands (sleep/hibernate/etc)
 ```
 powercfg-chang-standby-timeout-dc 0
 powercfg-chang-standby-timeout-ac 0
@@ -83,7 +83,7 @@ powercfg-h off
 ```
 
 
-#Shutdown commands
+# Shutdown commands
 ```
 shutdown /r/t [delay time in seconds]
 shutdown /r/f
@@ -95,7 +95,7 @@ _Explination in order: reboot after set time | force reboot now | shutdown now |
 
 ============================================================================================
 
-#Net (or general) Commands
+# Net (or general) Commands
 
 Show connected drives & map persistent drives
 ```
