@@ -70,7 +70,7 @@ I am a **System Engineer I** with a strong hands-on background in Tier 1–2 sys
 ---
 ## 🔬 Technical Projects & Hands-On Labs
 
-### 🌐 [CompTIA Network+ Infrastructure Lab](https://github.com/yourusername/network-plus-lab)
+### 🌐 [Inter-VLAN Routing](https://github.com/chellebell1689/my-knowledge-base/projects/networking/inter-vlan-routing.md)
 * **Overview:** Designed and configured a multi-subnet corporate network topology simulating enterprise traffic, routing, and security.
 * **Tech & Tools:** Cisco Packet Tracer, SSH, Subnetting (IPv4), VLAN Tagging, Firewall Policies.
 
