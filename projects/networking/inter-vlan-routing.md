@@ -28,13 +28,15 @@ R1-Branch will act as the DHCP server for VLAN 20 & VLAN 30.
 * Add the switch, Cisco Catalyst 2960, and name it SW1-Core
 * Add the three end user PC's and name them accordingly: Admin-PC, Staff-PC, and Guest-PC
 
+[Devices have been added](../assets/projects/screenshots/pt1-devices-added.png)
+
 ## Part 2: Add the connections
 * Using Copper Cross-Over, I connected GigabitEthernet 0/0 on R1-Branch to GigabetEthernet 0/1 on SW1-Core
 * Using Copper Cross-Over, I connected FastEthernet 0/1 on SW1-Core to Admin-PC
 * Using Copper Cross-Over, I connected FastEthernet 0/2 on SW1-Core to Staff-PC
 * Using Copper Cross-Over, I connected FastEthernet 0/3 on SW1-Core to Guest-PC
 
-## Part 3: Setup DHCP Server
+## Part 3: Setup the Router
 * On R1-Branch, using CLI, turned on port GigabitEthernet0/0 using command ``` no shutdown ```
 * Ran ``` encapsulation dot1Q 10 ``` (repeat for VLAN 20 and VLAN 30) to enable IEEE 802.1Q VLAN trunking protocol for each protocol
 * Ran ``` ip address 192.168.10.1 255.255.255.0``` (repeat for VLAN 20 and VLAN 30) to set the default gateway and subnet maks
@@ -48,9 +50,15 @@ R1-Branch will act as the DHCP server for VLAN 20 & VLAN 30.
 ## Part 4: Setup the Switch
 * Ran ```switchport mode trunk``` on the Gig0/1 port to allow untagged traffic as well as tagged traffic using various tags
 * Ran ``` vlan 10``` and ```name VLAN10``` (repeated for VLAN20 and VLAN30) to establish the three VLANs on the switch
+
+[Setup VLANs on the Switch](../assets/projects/screenshots/add-vlans-switch.png)
+
 * Ran ```switchport access VLAN 10``` on interface fa0/1 to allow VLAN10 traffic to pass on that port
 * Ran ```switchport access VLAN 20``` on interface fa0/2 to allow VLAN20 traffic to pass on that port
 * Ran ```switchport access VLAN 30``` on interface fa0/3 to allow VLAN30 traffic to pass on that port
+
+[Assign the VLANs to the ports on the switch](../assets/projects/screenshots/assign-vlans-ports.png)
+
 * Checked my running config and saved to startup config
 
 ## Part 5: Check work and troubleshoot
