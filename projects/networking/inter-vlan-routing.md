@@ -28,7 +28,7 @@ R1-Branch will act as the DHCP server for VLAN 20 & VLAN 30.
 * Add the switch, Cisco Catalyst 2960, and name it SW1-Core
 * Add the three end user PC's and name them accordingly: Admin-PC, Staff-PC, and Guest-PC
 
-[Devices have been added](../assets/projects/screenshots/pt1-devices-added.png)
+[Devices have been added](../../assets/screenshots/pt1-devices-added.png)
 
 ## Part 2: Add the connections
 * Using Copper Cross-Over, I connected GigabitEthernet 0/0 on R1-Branch to GigabetEthernet 0/1 on SW1-Core
