@@ -64,3 +64,4 @@ R1-Branch will act as the DHCP server for VLAN 20 & VLAN 30.
 
 
 ## Cisco Packet Tracer Lab
+[Cisco Packet Tracer Pkt](../assets/projects/inter-vlan-routing)
