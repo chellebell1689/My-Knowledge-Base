@@ -51,7 +51,7 @@ R1-Branch will act as the DHCP server for VLAN 20 & VLAN 30.
 * Ran ```switchport mode trunk``` on the Gig0/1 port to allow untagged traffic as well as tagged traffic using various tags
 * Ran ``` vlan 10``` and ```name VLAN10``` (repeated for VLAN20 and VLAN30) to establish the three VLANs on the switch
 
-[Setup VLANs on the Switch](../assets/projects/screenshots/add-vlans-switch.png)
+![Setup VLANs on the Switch](../../assets/screenshots/add-vlans-switch.png)
 
 * Ran ```switchport access VLAN 10``` on interface fa0/1 to allow VLAN10 traffic to pass on that port
 * Ran ```switchport access VLAN 20``` on interface fa0/2 to allow VLAN20 traffic to pass on that port
